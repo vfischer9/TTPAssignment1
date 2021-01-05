@@ -37,3 +37,24 @@ footer{
 .card-img-top{
     height: 300px;
 }
+
+.information{
+    margin: 20px;
+}
+
+li{
+    width: 40%;
+}
+
+.information p{
+    width: 70%;
+    margin: 0;
+}
+
+.border{
+    background-color: firebrick;
+    color: white;
+}
+
+
+
