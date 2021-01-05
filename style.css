@@ -5,10 +5,35 @@
     color: white;
 }
 
+.info{
+    background-color: pink
+}
+
 footer{
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+.card{
+    background-color: lightskyblue;
+    float: none;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 50px;
+    text-align: center;
+}
+
+.row{
+    align-content: center;
+    justify-content: center;
+}
+
+
+.card-img-top{
+    height: 300px;
 }
