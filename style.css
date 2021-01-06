@@ -6,7 +6,7 @@
 }
 
 .info{
-    background-color: pink
+    background-color: tomato;
 }
 
 footer{
@@ -56,5 +56,8 @@ li{
     color: white;
 }
 
+.tipJumbo{
+    background-color: pink;
+}
 
 
