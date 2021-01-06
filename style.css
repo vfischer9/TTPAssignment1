@@ -1,4 +1,14 @@
+.tipsPage{
+    background-color: mistyrose;
+}
 
+.homePage{
+    background-color: lightcyan;
+}
+
+.infoPage{
+    background-color: lavender;
+}
 
 .jumbotron{
     background-color: lightskyblue;
@@ -6,7 +16,7 @@
 }
 
 .info{
-    background-color: tomato;
+    background-color: #CDB7F6;
 }
 
 footer{
@@ -52,12 +62,56 @@ li{
 }
 
 .border{
-    background-color: firebrick;
-    color: white;
+    color: red;
 }
 
 .tipJumbo{
     background-color: pink;
 }
 
+.pinkCorona{
+    height: 250px;
+    width: 300px;
+    margin-right: 80px;
+}
 
+.chart{
+    height: 300px;
+    width: 300px;
+    margin-right: 41%;
+}
+
+.purpCov{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-left: 60%;
+    bottom: 18%;
+}
+
+.pinkSoap{
+    height: 250px;
+    width: 250px;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+.sickPic{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin-left: 25%;
+    top: 92%;
+}
+
+.pinkMask img, .purpleCorona{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin-left: 65%;
+    bottom: 71%;
+}
+
+.goal{
+    text-align: center;
+}

@@ -8,9 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel='stylesheet' href='/style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     </head>
 
-  <body>
+  <body class='infoPage'>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
             <path d="M8 2.748l-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
@@ -32,10 +33,13 @@
             <h1>Want to learn more about COVID-19?</h1>
           <p class="lead">Read below for some of the most recent facts about the deadly Coronavirus.</p>
         </div>
+        <div>
+          <img class='purpleCorona border border-dark rounded rounded-circle' src='/images/purpleCovid.jpg'>
+        </div>
       </div>
 
       <div class='information'>
-        <div class='border border-secondary rounded'>
+        <div class='border border-secondary rounded animate__animated animate__zoomInDown'>
             <b class='ml-2'><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
                 <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
                 <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
@@ -45,6 +49,8 @@
         <br>
 
             <b>Brief History of COVID-19 in the US (2020)</b>
+            <img class='chart border border-dark rounded float-right' src='/images/chart.png'>
+            <img class='purpCov border border-dark rounded float-right' src='/images/purpCov.jpg'>
             <ul>
                 <li>The first case appeared on the January 20th, 2020, and the first death was on February 29th, 2020. </li>
                 <li>It was in March that the virus was declared a pandemic and Americans began to quarantine. Schools implemented remote learning and workforces were instructed 
@@ -56,11 +62,11 @@
                 <li>By the end of 2020, deaths from COVID-19 had reached 300,000 in the US alone and one million worldwide.</li>
                 <li>By January 2021; it is still an issue in most countries of the world.</li>
             </ul>
-        <br>
 
+        <img class='sickPic border border-dark rounded float-right' src='/images/sick.jpg'>
         <b>Symptoms</b>
         <p>COVID-19 has an incubation period of up to two weeks, meaning the body can be infected and spread to other people and still not show any symptoms. </p>
-        <p>COVID-19 shares many of its symptoms with the flu, however, some key differences between the two are that COVID-19 is more serious and deadly, spreads easier, and has a 
+        <p>COVID-19 shares many of its symptoms with the flu, however, some key differences between the two are that COVID-19 is more serious and deadly, spreads<br> easier, and has a 
         longer incubation period, which makes it easier to miss in the beginning. The symptoms they share include from most commonly:</p>
         <ul>
             <li>Fever</li>
@@ -86,7 +92,7 @@
     
     </div>
 
-
+<br><br>
   </body>
 
   <footer class='footer'>
